@@ -20,7 +20,7 @@ features:
   - icon: 🎲
     title: Wahrscheinlichkeitstheorie
     details: Kapitel 2
-    #link: 2-reasoning-proofs
+    link: 2-probability
   - icon: ⭐️
     title: Algorithmen Highlights
     details: Kapitel 3
