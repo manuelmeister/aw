@@ -139,9 +139,7 @@ Wegen $A_1 \cup A_2 = X\cup A_2$ folgt daraus
 
 $
 \displaystyle\begin{align}
-\Pr [ A_1 \cup A _ { 2 } ] &= \Pr [ {  { X } } \cup A _ { 2 } ] \<center>
-
-$2pt] &= \Pr [ {  { X } } ] + \Pr [ A _ { 2 } ] = \Pr [ A_1 ] - \Pr [ A_1 \cap A _ { 2 } ] + \Pr [ A _ { 2 } ]
+\Pr [ A_1 \cup A _ { 2 } ] &= \Pr [ {  { X } } \cup A _ { 2 } ] \\[2pt] &= \Pr [ {  { X } } ] + \Pr [ A _ { 2 } ] = \Pr [ A_1 ] - \Pr [ A_1 \cap A _ { 2 } ] + \Pr [ A _ { 2 } ]
 \end{align}
 $
 </center>
