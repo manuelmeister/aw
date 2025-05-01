@@ -1,10 +1,10 @@
 ---
 layout: home
 hero:
-  name: Diskrete Mathematik
+  name: Algorithmen & Wahrscheinlichkeit
   text: Skript 2024
-  tagline: "von Ueli Maurer, digitalisiert von Studierenden"
-  image: https://crypto.ethz.ch/~maurer/me.jpg
+  tagline: "von Angelika Steger & Emo Welzl, digitalisiert von Studierenden"
+  image: /algowahr.png
   actions:
     - theme: brand
       text: Introduction
@@ -13,29 +13,16 @@ hero:
       text: Get Started
       link: /2-reasoning-proofs
 features:
-  - icon: 🎯
-    title: Chapter 1
-    details: Introduction and Motivation
-    link: intro
-  - icon: 🔮
-    title: Chapter 2
-    details: Mathematical Reasoning, Proofs, and a First Approach to Logic
-    link: 2-reasoning-proofs
-  - icon: "{}"
-    title: Chapter 3
-    details: Sets, Relations, and Functions
-    link: 3-sets-relations-functions
-  - icon: 🔢
-    title: Chapter 4
-    details: Number Theory
-    link: 4-number-theory
-  - icon: 🧮
-    title: Chapter 5
-    details: Algebra
-    link: 5-algebra
-    target: _self
-  - icon: 🧠
-    title: Chapter 6
-    details: Logic
-    link: 6-logic
+  - icon: 🧩
+    title: Graphentheorie 
+    details: Kapitel 1
+    #link: intro
+  - icon: 🎲
+    title: Wahrscheinlichkeitstheorie
+    details: Kapitel 2
+    #link: 2-reasoning-proofs
+  - icon: ⭐️
+    title: Algorithmen Highlights
+    details: Kapitel 3
+    #link: 3-sets-relations-functions
 ---

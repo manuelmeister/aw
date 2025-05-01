@@ -35,20 +35,20 @@ function createContainer(
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    title: "Diskrete Mathematik",
-    base: "/dm/",
+    title: "Algorithms & Probability",
+    base: "/aw/",
     description: "Interactive script",
     lang: "en-US",
     srcDir: 'docs',
     head: [
-        ['meta', { property: 'og:url', content: 'https://manuelmeister.github.io/dm/' }],
+        ['meta', { property: 'og:url', content: 'https://manuelmeister.github.io/aw/' }],
         ['meta', { property: 'og:type', content: 'website' }],
-        ['meta', { property: 'og:title', content: 'Diskrete Mathematik' }],
-        ['meta', { property: 'og:description', content: 'Skript von Ueli Maurer, digitalisiert von Studierenden' }],
-        ['meta', { property: 'og:image', content: 'https://manuelmeister.github.io/dm/social.png'}],
+        ['meta', { property: 'og:title', content: 'Algorithms & Probability' }],
+        ['meta', { property: 'og:description', content: 'Skript von Angelika Steger & Emo Welzl, digitalisiert von Studierenden' }],
+        ['meta', { property: 'og:image', content: 'https://manuelmeister.github.io/aw/social.png'}],
     ],
     sitemap: {
-        hostname: 'https://manuelmeister.github.io/dm/',
+        hostname: 'https://manuelmeister.github.io/aw/',
         transformItems: (items) => {
             return items.map((item) => {
                 if (item.url.endsWith('/')) {
@@ -115,18 +115,18 @@ export default defineConfig({
     },
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-        nav: [
-            {text: 'Refs', link: '/refs'},
-            {
-                text: 'Chapters', items: [
-                    {text: '2. Reasoning & Proofs', link: '/2-reasoning-proofs'},
-                    {text: '3. Sets, Relations and Functions', link: '/3-sets-relations-functions'},
-                    {text: '4. Number Theory', link: '/4-number-theory'},
-                    {text: '5. Algebra', link: '/5-algebra'},
-                    {text: '6. Logic', link: '/6-logic'},
-                ]
-            }
-        ],
+        //nav: [
+        //    {text: 'Refs', link: '/refs'},
+        //    {
+        //        text: 'Chapters', items: [
+        //            {text: '2. Reasoning & Proofs', link: '/2-reasoning-proofs'},
+        //            {text: '3. Sets, Relations and Functions', link: '/3-sets-relations-functions'},
+        //            {text: '4. Number Theory', link: '/4-number-theory'},
+        //            {text: '5. Algebra', link: '/5-algebra'},
+        //            {text: '6. Logic', link: '/6-logic'},
+        //        ]
+        //    }
+        //],
 
         search: {
             provider: 'local',
@@ -142,11 +142,11 @@ export default defineConfig({
 
         aside: "left",
         outline: {
-            label: "In this chapter",
+            label: "In diesem Kapitel",
             level: [2, 3],
         },
         footer: {
-            message: "No guarantee for correctness or completeness. Use at your own risk.<br> All rights belong to Ueli Maurer and respective authors.",
+            message: "No guarantee for correctness or completeness. Use at your own risk.<br> All rights belong to Angelika Steger & Emo Welzl and respective authors.",
         },
         lastUpdated: true,
         docFooter: {
@@ -154,14 +154,14 @@ export default defineConfig({
             prev: "Previous chapter",
         },
         editLink: {
-            pattern: 'https://github.com/manuelmeister/dm/edit/main/docs/:path'
+            pattern: 'https://github.com/manuelmeister/aw/edit/main/docs/:path'
         },
 
 
         sidebar: false,
 
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/manuelmeister/dm'}
+            {icon: 'github', link: 'https://github.com/manuelmeister/aw'}
         ]
     },
     vue: {

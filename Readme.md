@@ -1,6 +1,6 @@
-# Discrete Mathematics
+# Algorithms & Probability
 
-Welcome to the **Interactive Discrete Mathematics Script**! 🎓 This script is designed to provide students with an interactive and accessible platform to learn and explore the core concepts of discrete mathematics.
+Welcome to the **Algorithms and Probability Script**! 🎓 This script is designed to provide students with an interactive and accessible platform to learn and explore the core concepts of algorithms and probability.
 
 ## 🌟 Features
 
@@ -18,8 +18,8 @@ If you'd like to develop or customize this script locally, follow these steps:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/manuelmeister/dm
-cd dm
+git clone https://github.com/manuelmeister/aw
+cd aw
 ```
 
 ### 2. Install Dependencies
@@ -60,5 +60,5 @@ This script leverages the following tools and libraries:
 
 ## ⚠️ Disclaimer
 
-The content is provided as-is, with no guarantees for correctness or completeness. Use it at your own risk. All rights remain with Ueli Maurer and the respective authors.
+The content is provided as-is, with no guarantees for correctness or completeness. Use it at your own risk. All rights remain with Angelika Steger, Emo Welzl and the respective authors.
 
