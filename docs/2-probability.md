@@ -1,10 +1,10 @@
 ---
-next: 
-  link: /3-sets-relations-functions
-  text: Sets, Relations, and Functions
-prev: 
-  link: /intro
-  text: Introduction and Motivation
+#next: 
+#  link: /3-sets-relations-functions
+#  text: Sets, Relations, and Functions
+#prev: 
+#  link: /intro
+#  text: Introduction and Motivation
 ---
 
 # Kapitel 2

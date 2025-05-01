@@ -5,13 +5,13 @@ hero:
   text: Skript 2024
   tagline: "von Angelika Steger & Emo Welzl, digitalisiert von Studierenden"
   image: /algowahr.png
-  actions:
-    - theme: brand
-      text: Introduction
-      link: /intro
-    - theme: alt
-      text: Get Started
-      link: /2-reasoning-proofs
+  #actions:
+  #  - theme: brand
+  #    text: Introduction
+  #    link: /intro
+  #  - theme: alt
+  #    text: Get Started
+  #    link: /2-reasoning-proofs
 features:
   - icon: 🧩
     title: Graphentheorie 
